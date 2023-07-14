@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>ФМы для работы с базами данных Сибур</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZHCM_EXPRT_DB_OPERATIONSTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZHCM_EXPRT_DB_OPERATIONS</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>Z_HCM_SAVE_EXPRT_INF</FUNCNAME>
+     <UPDATE_TASK>1</UPDATE_TASK>
+     <SHORT_TEXT>Сохраняет данные экспорта Сибур</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IS_INF</PARAMETER>
+       <TYP>ZHCM_EXPRT_OPDAT</TYP>
+      </RSIMP>
+     </IMPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IS_INF</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>данные экспорта для Сибур</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>Z_HCM_SAVE_EXPRT_TAB</FUNCNAME>
+     <UPDATE_TASK>1</UPDATE_TASK>
+     <SHORT_TEXT>Сохраняет таблицу экспорта в БД</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IT_TAB</PARAMETER>
+       <TYP>ZCLHR_EXPRT_TABLE_SERVICE=&gt;TY_T_EXPRT_RES</TYP>
+      </RSIMP>
+     </IMPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IT_TAB</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Входная таблица вида таблицы экспорта</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

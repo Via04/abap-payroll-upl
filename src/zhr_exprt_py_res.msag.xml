@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZHR_EXPRT_PY_RES</ARBGB>
+    <MASTERLANG>R</MASTERLANG>
+    <STEXT>Сообщения по группе программ для экспорта исторической ЗП</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>R</SPRSL>
+     <ARBGB>ZHR_EXPRT_PY_RES</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>Неизвестная ошибка</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>R</SPRSL>
+     <ARBGB>ZHR_EXPRT_PY_RES</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Ошибка чтения файловой системы</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>R</SPRSL>
+     <ARBGB>ZHR_EXPRT_PY_RES</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Ошибка чтения расчетов ЗП. ТН &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>R</SPRSL>
+     <ARBGB>ZHR_EXPRT_PY_RES</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>У вас нет полномочий на чтение расчетов ЗП. ТН &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>R</SPRSL>
+     <ARBGB>ZHR_EXPRT_PY_RES</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Ошибка при чтении результата расчета ЗП. ТН &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>R</SPRSL>
+     <ARBGB>ZHR_EXPRT_PY_RES</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>У вас нет полномочий на чтение результатов расчета ЗП. ТН &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>R</SPRSL>
+     <ARBGB>ZHR_EXPRT_PY_RES</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Пустая таблица &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>R</SPRSL>
+     <ARBGB>ZHR_EXPRT_PY_RES</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Неправильный тип данных</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>R</SPRSL>
+     <ARBGB>ZHR_EXPRT_PY_RES</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Ошибка при открытии/создании файла. &amp;1</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>
